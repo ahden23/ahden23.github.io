@@ -1,12 +1,12 @@
 ---
 layout: post
 title: 서브메시 드로우 순서 리오더링 방지
-category: unity
 comments: true  
 description: >
   서브메시에 대한 최적화 메커니즘 거스르기
 date: 2024-01-18 21:20:05 +0900
-excerpt_separator:
+category: unity
+tags: [unity, rendering]
 ---
 
 ## 엔진에 의한 서브메시 드로우 순서 리오더링

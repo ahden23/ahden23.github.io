@@ -1,11 +1,12 @@
 ---
 layout: post
 title: 음수 스케일로 파티클 메시 플립하기
-category: unity
 comments: true  
 description: >
   유니티 엔진에서 MeshRenderer와 ParticleSystemRenderer의 음수 스케일 처리 방식은 다름을 이해한다.
 date: 2024-01-05 14:00:00 +0900
+category: unity
+tags: [unity, rendering]
 ---
 
 ![Untitled](/public/img/posts/mesh-flip/mesh-flip.png)  
