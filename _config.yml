@@ -1,13 +1,13 @@
-title: Michael Lanyon's Blog
-url: 'https://blog.lanyonm.org'
-description: 'Notes and thoughts from LanyonM'
+title: Ahden's Blog
+url: 'https://ahden23.github.io'
+description: 'Dev Notes from Ahden'
 
 exclude: [Gemfile, Gemfile.lock, README.md]
 markdown: kramdown
 
-author: 'Michael Lanyon'
-disqus_shortname: lanyonm
-google_analytics: G-NN7JP65RMS
+author: 'Jinho Mang'
+#disqus_shortname: lanyonm
+#google_analytics: G-NN7JP65RMS
 
 plugins:
   # https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/about-github-pages-and-jekyll
