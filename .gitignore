@@ -4,3 +4,4 @@ Gemfile.lock
 _site
 url_mapping.csv
 cmd.txt
+.DS_Store
