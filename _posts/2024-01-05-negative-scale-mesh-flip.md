@@ -9,7 +9,7 @@ category: unity
 tags: [unity, rendering]
 ---
 
-![Untitled](/public/img/posts/mesh-flip/mesh-flip.png)  
+![Untitled](/images/posts/mesh-flip/mesh-flip.png)  
 
 Unity에서 음수 스케일에 대해서 MeshRenderer의 메시를 처리하는 방식과 ParticleSystem에서 메시를 처리하는 방식이 다르다. 이론적으로 생각해보면, 음수 스케일을 설정하면 버텍스 위치가 반전될 뿐만 아니라 각 삼각형에서 버텍스 순서도 바뀌기 때문에 면 방향도 뒤집히게 된다. 파티클시스템에서의 처리 방식이 이것에 해당한다. 그런데 MeshRenderer에서는 버텍스 순서는 유지시켜주기 때문에 면 방향은 뒤집히지 않도록 내부적으로 처리가 되어 거울 반영 효과를 줄 수 있다. 
 
