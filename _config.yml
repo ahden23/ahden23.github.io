@@ -1,11 +1,12 @@
-title: Ahden's Blog
+title: Ahden의 데브노트
 url: 'https://ahden23.github.io'
-description: 'Dev Notes from Ahden'
+description: '흑기사 방랑일지'
 
 exclude: [Gemfile, Gemfile.lock, README.md]
 markdown: kramdown
 
 author: 'Jinho Mang'
+
 #disqus_shortname: lanyonm
 #google_analytics: G-NN7JP65RMS
 
