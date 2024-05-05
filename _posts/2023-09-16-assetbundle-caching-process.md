@@ -4,7 +4,7 @@ title: Unity 내장 에셋번들 캐싱 시스템 동작
 comments: true  
 description: >
   유니티 내장 에셋번들 캐싱 동작 살펴보기
-date: 2022-09-16 22:00:00 +0900
+date: 2023-09-16 22:00:00 +0900
 category: unity
 tags: [unity, assetbundle]
 ---

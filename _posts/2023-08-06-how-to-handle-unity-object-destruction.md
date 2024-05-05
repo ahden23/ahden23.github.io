@@ -4,7 +4,7 @@ title: Destroy 메서드로 Unity 오브젝트 소멸시키기 - Part 1
 comments: true
 description: >
   Unity 오브젝트 소멸 제대로 이해하기
-date: 2022-08-13 21:00:00 +0900
+date: 2023-08-13 21:00:00 +0900
 category: unity
 tags: [unity]
 ---

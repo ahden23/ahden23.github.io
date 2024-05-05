@@ -4,7 +4,7 @@ title: Destroy 메서드로 Unity 오브젝트 소멸시키기 - Part 2
 comments: true  
 description: >
   좀비 오브젝트로 인한 메모리 누수를 조심하자
-date: 2022-08-13 23:59:00 +0900
+date: 2023-08-13 23:59:00 +0900
 category: unity
 tags: [unity]
 ---

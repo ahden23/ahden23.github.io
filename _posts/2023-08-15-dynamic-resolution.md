@@ -4,7 +4,7 @@ title: Dynamic Resolution 적용하기
 comments: true  
 description: >
   동적 해상도로 쾌적한 FPS 유지하기
-date: 2022-08-15 23:59:00 +0900
+date: 2023-08-15 23:59:00 +0900
 category: unity
 tags: [unity, rendering, optimization]
 ---
