@@ -1,4 +1,4 @@
-# Jekyll source for ahden23.github.io
+# Jekyll source for my blog
 Read more here: [GitHub User Pages](https://help.github.com/articles/user-organization-and-project-pages).
 
 # License
