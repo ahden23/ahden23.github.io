@@ -38,6 +38,7 @@
 html,
 body {
   overflow-x: hidden;
+  font-size: 85%;
 }
 
 html {
@@ -46,7 +47,7 @@ html {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Nanum Gothic', "PT Sans", sans-serif; /* 폰트 변경 */
-  font-weight: 600;
+  font-weight: 500;
   color: #313131;
   letter-spacing: -.025rem;
 }
@@ -283,7 +284,6 @@ a.sidebar-nav-item:focus {
 .page,
 .post {
   margin-bottom: 4em;
-  font-size: 85%;
 }
 
 /* Blog post or page title */
