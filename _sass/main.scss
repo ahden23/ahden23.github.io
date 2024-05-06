@@ -12,6 +12,11 @@ html {
     font-size: 16px;
   }
 }
+@media (min-width: 19em) {
+  html {
+    font-size: 18px;
+  }
+}
 
 .center {
   text-align: center;
