@@ -38,7 +38,6 @@
 html,
 body {
   overflow-x: hidden;
-  font-size: 80%;
 }
 
 html {
@@ -286,6 +285,7 @@ a.sidebar-nav-item:focus {
 .page,
 .post {
   margin-bottom: 4em;
+  font-size: 80%;
 }
 
 /* Blog post or page title */
