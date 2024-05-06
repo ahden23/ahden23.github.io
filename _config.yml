@@ -1,6 +1,6 @@
 title: 흑기사 방랑일지
 url: 'https://ahden23.github.io'
-description: 'ahden의 데브노트'
+description: 'ahden's DevNote'
 
 exclude: [Gemfile, Gemfile.lock, README.md]
 markdown: kramdown
