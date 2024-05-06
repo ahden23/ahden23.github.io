@@ -48,7 +48,7 @@ body {
 }
 
 html {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Noto Sans KR', sans-serif; /* 폰트 변경 */
   font-size: 16px;
   line-height: 1.5;
 }
@@ -150,7 +150,7 @@ abbr[title] {
 /* Code */
 code,
 pre {
-  font-family: Menlo, Monaco, "Courier New", monospace;
+  font-family: 'Noto Sans Mono', 'Courier New', monospace; /* 폰트 변경 */
 }
 code {
   padding: .25em .15em;

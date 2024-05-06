@@ -3,7 +3,7 @@ url: 'https://ahden23.github.io'
 description: 'ahden의 데브노트'
 
 exclude: [Gemfile, Gemfile.lock, README.md]
-markdown: markdown #kramdown
+markdown: kramdown
 
 author: 'Jinho Mang'
 
