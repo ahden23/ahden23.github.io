@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "아트팀 맞춤형: 최적화 필수 가이드 - 불필요한 알파 영역 제거"
+title: "아트팀 맞춤형 필수 가이드 - 불필요한 알파 영역 제거"
 comments: true  
 description: >
   오버드로우를 줄이기 위해 불필요한 알파 영역을 줄이자
