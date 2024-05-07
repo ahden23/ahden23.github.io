@@ -14,7 +14,7 @@ tags: [unity, assetbundle]
 예를 들어, 씬1 안에 프리팹A 오브젝트가 배치되어 있고 씬1과 프리팹A이 각각 자체 에셋번들로 빌드되었다고 하자. 이 때 프리팹A 원본에서 오버라이드 가능한 직렬화 데이터가 변경되면 어떻게 될까? 프리팹A 원본만 변경되었다면 프리팹A만 새로운 에셋번들 빌드가 생성될 것 같지만 사실 그렇지 않다. 의존성 관계가 있는 씬1도 함께 다시 빌드가 된다. 그래서 씬1 에셋 번들 역시 새 빌드가 생성되고 이전과 다른 에셋 파일 해시를 갖게 된다.
 
 실제로 프리팹A의 일부 오버라이드 가능 데이터를 변경하기 전과 후의 씬1 에셋번들 파일을 직접 열어서 비교해보면 씬1 에셋번들의 변경된 부분을 확인할 수 있다. 아래 그림을 보면, 프리팹의 m_RaycastTarget가 0에서 1로 변경되었을 때에 씬도 m_RaycastTarget가 기록되며 프리팹과 마찬가지로 0에서 1로 변경됨을 확인할 수 있다. 
-(참고로, 에셋번들 파싱은 엔진에서 제공하는 도구들을 활용하면 에셋번들 데이터를 쉽게 파싱해 볼 수 있다. https://support.unity.com/hc/en-us/articles/217123266-How-do-I-determine-what-is-in-my-Scene-bundle)
+(참고로, 에셋번들 파싱은 엔진에서 제공하는 도구들을 활용하면 에셋번들 데이터를 쉽게 파싱해 볼 수 있다. [여기](https://support.unity.com/hc/en-us/articles/217123266-How-do-I-determine-what-is-in-my-Scene-bundle)를 참고) 
 
 ```cmd
 ***** E:\MYTEST\ASSETBUNDLE\00\PREFABS_DATA\CAB-6fee5e41c4939eed80f81beb3e5e6ebc.txt
