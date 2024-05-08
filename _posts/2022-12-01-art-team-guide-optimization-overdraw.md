@@ -46,7 +46,7 @@ tags: [optimization]
 ![Untitled](/images/posts/art-team-overdraw/a10.png)
 
 Q. 다음 육각형들 중에서는 어떤 게 가장 최적화된 메시일까요?
-
 ![Untitled](/images/posts/art-team-overdraw/a11.png)
+이런 메시 최적화에 관한 자세한 내용은 \[메시 최적화 가이드\]를 참고하시기 바랍니다.
 
 
