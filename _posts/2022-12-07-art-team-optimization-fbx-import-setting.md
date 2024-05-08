@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "아트팀 맞춤형: 최적화 필수 가이드 - 메시 최적화 4. FBX 모델 임포트 옵션"
+title: "아트팀 맞춤형: 최적화 가이드 - 메시 최적화 4. FBX 모델 임포트 옵션"
 comments: true  
 description: >
   임포트 옵션도 신경써야 한다.

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "아트팀 맞춤형: 최적화 필수 가이드 - 드로우 콜 다시 보기"
+title: "아트팀 맞춤형: 최적화 가이드 - 드로우 콜 다시 보기"
 comments: true  
 description: >
   아트팀을 위한 드로우 콜에 대한 고찰

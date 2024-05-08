@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "아트팀 맞춤형: 최적화 필수 가이드 - 메시 최적화 1. 폴리곤 수 줄이기"
+title: "아트팀 맞춤형: 최적화 가이드 - 메시 최적화 1. 폴리곤 수 줄이기"
 comments: true  
 description: >
   폴리곤 수는 적을수록 좋다.
