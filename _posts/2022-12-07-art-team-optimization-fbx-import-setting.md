@@ -16,7 +16,7 @@ tags: [optimization]
 ## Read/Write Enabled은 꺼주세요
 기본적으로 Read/Write Enabled 옵션은 비활성화해야 합니다. 그렇지 않으면, 이 모델의 데이터 메모리는 게임 플레이 중에 2배를 차지하게 됩니다. (단, 유니티 스크립트를 통해 해당 모델 메시에 접근하는 구현이 포함된 경우는 예외적으로 옵션을 활성화해야 합니다.)   
 
-## Optimize Mesh는 Everything으로 해주세요.
+## Optimize Mesh는 Everything으로 해주세요
 이 옵션을 켜면, 엔진에서 더 좋은 GPU 성능을 내기 위해 삼각형 인덱스와 순서를 적절히 변경합니다. 특별한 이유가 없는 한 옵션값을 Everything으로 설정합니다.
 
 ## Normal값은 임포트하지 마세요

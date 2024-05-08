@@ -15,16 +15,16 @@ tags: [optimization]
 
 예를 들어, 둥근 모서리나 곡선을 렌더링하기 위해 다음과 같이 삼각형 팬 형태로 제작할 수 있지만, 이렇게 하면 여러 개의 길고 가느다란 대각선이 발생하고 각 모서리는 추가적인 오버헤드가 발생합니다. 심지어 사이즈까지 커지면 오버헤드가 더 빠르게 늘어날 수 있습니다.
 
-![Untitled](/images/art-team-thin-polygon/f01.png)
+![Untitled](/images/posts/art-team-thin-polygon/f01.png)
 
 둥근 모서리에 대한 더 나은 솔루션은 삼각형 모양을 재귀적으로 세분화해가는 것입니다. 이로써 가장자리 길이를 감소시키고 같은 크기 영역에서의 모서리 비율을 최소화합니다.
 
-![Untitled](/images/art-team-thin-polygon/f02.png)
+![Untitled](/images/posts/art-team-thin-polygon/f02.png)
 
 아래 그림은 어떻게 제작하느냐에 따른 성능 차이를 보여줍니다:
 
-![Untitled](/images/art-team-thin-polygon/f03.png)
+![Untitled](/images/posts/art-team-thin-polygon/f03.png)
 
-![Untitled](/images/art-team-thin-polygon/f04.png)
+![Untitled](/images/posts/art-team-thin-polygon/f04.png)
 
 x축은 삼각형 개수를, y축은 FPS(frames per second)를 나타냅니다. 앞의 두 가지 경우엔 삼각형 개수가 늘어남에 따라 fps가 현저하게 떨어집니다. 반면, 마지막 경우는 삼각형이 증가해도 fps가 거의 유지되는 것을 볼 수 있습니다. 이처럼 어떻게 제작하느냐는 성능에 치명적인 영향을 미칠 수 있으므로 이 점을 염두하고 제작하여야 합니다.

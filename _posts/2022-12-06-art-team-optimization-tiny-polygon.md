@@ -19,11 +19,11 @@ tags: [optimization]
 
 하지만 이보다 더욱 심각한 것은 GPU 성능을 갉아먹는다는 점입니다. 아래의 그림을 보면, 삼각형 당 차지하는 화면 픽셀 크기가 다른 모델 간 GPU 성능 저하를 보여줍니다. 단위 삼각형이 차지하는 화면 영역이 작아질수록 픽셀 당 부하가 커지는 것이 눈에 바로 확인이 됩니다. 가장 왼쪽에 있는 모델은 삼각형 당 평균 25픽셀 크기이고, 가장 오른쪽 모델은 삼각형 당 평균 1픽셀 크기인데, 이 두 모델 간에는 거의 3-4배에 육박하는 셰이딩 연산 부하 차이가 발생합니다.
 
-![Untitled](/images/art-team-tiny-polygon/e01.png)
+![Untitled](/images/posts/art-team-tiny-polygon/e01.png)
 
 아래 그림은 모델을 최적화하여 마이크로 삼각형을 거의 제거했을 때 GPU 셰이딩 효율이 얼마나 향상되었는지 보여줍니다. 
 
-![Untitled](/images/art-team-tiny-polygon/e02.png)  
+![Untitled](/images/posts/art-team-tiny-polygon/e02.png)  
 
 ## 결론: 삼각형은 최대한 크게
 
