@@ -17,7 +17,7 @@ tags: [rendering]
 
 # 뷰 공간에서 NDC 공간으로
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3a713783-6cd5-464c-9e38-b0462a68df72/Untitled.png)
+![Untitled](/images/posts/perspective-projection/bd01.png)
 
 그러나 실제 원근 투영은 이렇다:
 결론적으로 프러스텀 안의 모든 점들을 xyz축 요소 [-1, 1] 내의 큐브로 변환하는 것이 목표다. 이 큐브는 가로2 x 세로2 x 높이2 크기를 갖는다. (여기서 프러스텀은 시야각과 일정 z축 거리 (n, f)로 정의된다.)
@@ -27,7 +27,7 @@ tags: [rendering]
 
 ## Step 1: 시점에서 투영 평면까지의 거리 구하기
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/273f353e-19e3-4b71-9faa-6a319f2980f4/Untitled.png)
+![Untitled](/images/posts/perspective-projection/bd02.png)
 
 1. 일단 단순하게 접근하기 위해서, 그림과 같이 X축은 없애고 YZ 평면만 고려하도록 하자. 이제 y와 z요소에만 신경쓰면 된다.
 2. 또한 z 투영은 무시해보자. 그리고 근단면(near plane)과 원단면(far plane)도 우선 생각하지 말자. 앞서 언급한 것처럼, 원래 이론적으로 보자면 우리가 원하는 3D→2D로의 맵핑에서 z는 의미가 딱히 없다. 모든 점들이 일정한 상수 z값으로 맵핑되기 때문이다. 단지 z가 깊이 테스트 등을 이유로 나중에 쓸모가 있기 때문에 살려두어야 한다.
@@ -39,7 +39,7 @@ tags: [rendering]
 
 ## Step 2: NDC Y 구하기
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c763f2f2-8e5a-4b2f-964b-f57830590ec6/Untitled.png)
+![Untitled](/images/posts/perspective-projection/bd03.png)
 
 - 일단 앞 단계에서 거리 d값을 구해서 알고 있는 상황이다.
 - 시야 안의 임의의 점($Y_v$, $Z_v$)는 뷰 공간의 한 점으로 이미 설정해서 알고 있는 값이다.
@@ -85,7 +85,7 @@ tags: [rendering]
 
 ## Step 6: 동차 원근 행렬 (2차 완성 - 최종)
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9ea290ba-db4b-40cd-90b3-f9dfc316a985/Untitled.png)
+![Untitled](/images/posts/perspective-projection/bd04.png)
 
 Z를 생각해보자. 우리는 [-n, -f]를 [-1, 1]로 맵핑해야 한다.
 
