@@ -105,4 +105,7 @@ z파이팅
 실시간 그림자나 이미지 기반 효과 등을 위해서 거의 필수로 사용한다.
 깊이 버퍼만 따로 관리
 
+# 레퍼런스
+- van Verth, J. M., & Bishop, L. M. (2015). *Essential Mathematics for Games and Interactive Applications*. CRC Press.
+
 
