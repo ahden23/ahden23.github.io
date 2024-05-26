@@ -1,4 +1,4 @@
-# 내 블로그를 위한 Jekyll 소스
+# ahden 블로그를 위한 Jekyll 소스
 더 자세한 정보는 여기에서 확인하세요: [GitHub 사용자 페이지](https://help.github.com/articles/user-organization-and-project-pages).
 
 # 라이선스
