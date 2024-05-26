@@ -4,7 +4,7 @@ title: "원근 투영 변환 (Perspective Projection Transformation)"
 comments: true  
 description: >
   원근 투영 변환에 대해 충분히 이해하기 
-date: 2024-04-30 22:30:00 +0900
+date: 2023-04-23 22:30:00 +0900
 category: rendering
 tags: [rendering]
 ---
