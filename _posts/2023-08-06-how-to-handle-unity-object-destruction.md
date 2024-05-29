@@ -48,6 +48,7 @@ MonoBehaviour 컴포넌트 소멸 시 또는 이것이 연결된 게임오브젝
     myObject.SetActive(false);
     Destroy(myObject);
     ```
+
 ## 레퍼런스
 [Unity - Object.Destroy](https://docs.unity3d.com/ScriptReference/Object.Destroy.html)  
 [Unity - MonoBehaviour.OnDestroy](https://docs.unity3d.com/ScriptReference/MonoBehaviour.OnDestroy.html)  
